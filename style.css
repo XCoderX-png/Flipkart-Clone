@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+body{
+  background-color: #f1f1f1;
+}
+img:hover{
+  border: 2px solid black;
+}
+.header{
+  background-color: #fff;
+  width: 100%;
+  height: 70px;
+  display: flex;
+}
+.header .logo{
+  width: 15%;
+  height: 70px;
+}
+.logo .logo-image{
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .search{
+  width: 50%;
+  height: 70px;
+}
+.search .search-bar{
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.search-bar .fa-magnifying-glass{
+  position: absolute;
+  left: 35px;
+  top: 25px;
+  font-size: 1.2em;
+}
+.search-bar input{
+  width: 90%;
+  height: 40px;
+  background-color: #ebf3f5;
+  border-radius: 7px;
+  border: 0px;
+  padding-left: 40px;
+  font-size: 1.1em;
+}
+.header .login-icons{
+  width: 35%;
+  height: 70px;
+}
+.login-icons .icons .login:hover{
+  border: 1.5px solid black;
+}
+.login-icons .icons .more:hover{
+  border: 1.5px solid black;
+}
+.login-icons .icons .cart:hover{
+  border: 1.5px solid black;
+}
+.login-icons .icons{
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center ;
+}
+.icons .login span{
+  padding: 8px;
+  font-size: 1.2em;
+}
+.icons .more span{
+  padding: 8px;
+  font-size: 1.2em;
+}
+.icons .cart span{
+  padding: 8px;
+  font-size: 1.2em;
+}
+.slider-section{
+  height: 470px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider-section .slider{
+  height: 440px;
+  width: 95%;
+}
+.slider-section .slider img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.section-2{
+  height: 200px;
+  width: 100%;
+  display: flex;
+}
+.section-2 .cyber-img{
+  height: 170px;
+  width: 80%;
+  display: flex;
+}
+.section-2 .cyber-img img{
+  object-fit: cover;
+  height: 100%;
+  width: 50%;
+  border-radius: 10px;
+}
+.i1{
+  margin-left: 25px;
+  margin-right: 15px;
+}
+.i2{
+  margin-left: 5px;
+  margin-right: 15px;
+}
+.suggestions{
+  height: 35px;
+  width: 100%;
+  display: flex;
+}
+.suggestions p{
+  font-size: 30px;
+  padding-left: 25px;
+}
+.mobile-1{
+  height: 420px;
+  width: 100%;
+  display: flex;
+  padding: 20px;
+}
+.mobile-1 .mobile-img{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.mobile-img .mobile-img1{
+  height: 100%;
+  width: 32%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #ebebeb;
+  border-radius: 10px;
+  flex-direction: column;
+  text-align: left;
+  padding-bottom: 15px;
+}
+.mobile-img .mobile-img1 img{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+  
+}
+.mobile-img1 .phone-name{
+  font-size: 14px;
+  margin-bottom: 4px;
+  margin-left: 6px;
+}
+.mobile-img1 .price{
+  margin-bottom: 2px;
+  font-size: 16px;
+  margin-left: 6px;
+}
+.mobile-img1 .blue{
+  margin: 0px;
+  font-size: 16px;
+  margin-left: 6px;
+  color: #0a12ff;
+}
+.offer{
+  height: 270px;
+  width: 100%;
+}
+.offer .offer-ban{
+  height: 250px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 20px;
+}
+.offer .offer-ban img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+/* Container Box */
+.trends-container {
+  background-color: #f7c6bc; /* Light orange/cream background */
+  padding: 16px;
+  border-radius: 8px;
+  font-family: sans-serif;
+  width: 100%; /* Makes layout take up the full width */
+  box-sizing: border-box; /* Ensures padding doesn't cause overflow */
+  margin: 20px;
+}
+.trends-container2{
+  background-color: #cafcee; /* Light orange/cream background */
+  padding: 16px;
+  border-radius: 8px;
+  font-family: sans-serif;
+  width: 100%; /* Makes layout take up the full width */
+  box-sizing: border-box; /* Ensures padding doesn't cause overflow */
+  margin: 20px;
+}
+
+/* Heading */
+.trends-title {
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 20px;
+}
+
+/* 2x2 Grid System */
+.trends-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 equal columns */
+  gap: 10px; /* Space between cards */
+}
+
+/* Individual Cards */
+.trend-card {
+  background-color: #ffffff;
+  border-radius: 4px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Image Container with increased height */
+.image-wrapper {
+  width: 100%;
+  height: 250px; /* Increased height from 150px to 250px */
+  overflow: hidden;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Keeps image from stretching */
+  padding-bottom: 10px;
+}
+
+/* Text Labels */
+.trend-label {
+  font-size: 20px;
+  color: black
+  margin: 12px 0;
+  text-align: center;
+  background-color: #f7c6bc;
+}
+.trend-label2{
+  font-size: 20px;
+  color: black
+  margin: 12px 0;
+  text-align: center;
+  background-color: #cafcee;
+}
+.spotlight{
+  min-height: 500px;
+  width: 100%;
+}
+.spotlight h3{
+  font-size: 30px;
+  margin: 5px;
+  padding: 15px;
+}
+.spotlight .light{
+  height: 50%;
+  width: 100%;
+}
+.spotlight .light .img1-contain{
+  height: 100%;
+  width: 50%;
+  margin: 10px;
+  display: flex;
+  padding-top: 10px;
+}
+.img1-contain img{
+  height: 100%;
+  width: 75%;
+  max-width: 250px;
+  margin: 15px;
+  border-radius: 10px;
+}
+.footer{
+  height: 600px;
+  width: 100%;
+  position: relative;
+}
+.footer .panel1{
+  height: 40px;
+  width: 100%;
+  margin: 10px;
+}
+.footer .panel1 p{
+  font-size: 20px;
+  margin: 15px;
+}
+.footer .panel2{
+  height: 540px;
+  width: auto;
+  background-color: #121212;
+  margin: 0px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.div1 a, h3{
+  display: block;
+}
+.div2 a, p, h3{
+  display: block;
+}
+.div3 a, p, h3{
+  display: block;
+}
+.panel2 a{
+  color: #fff;
+  font-weight: bold;
+}
+.panel2 h3{
+  color: #787877;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: left;
+}
+.panel2 p{
+  color: #fff;
+}
+.panel2 div{
+  margin: 25px;
+}
